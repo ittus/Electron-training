@@ -1,0 +1,12 @@
+{
+  "name": "todo-apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "electron": "^1.7.12"
+  }
+}
