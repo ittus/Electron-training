@@ -42,6 +42,12 @@ const menuTemplate = [
         }
       },
       {
+        label: 'Clear Todos',
+        click () {
+          mainWindow.webContents.send('clear:todos', null);
+        }
+      },
+      {
         label: 'Quit',
         click () {
           app.quit();

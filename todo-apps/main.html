@@ -14,5 +14,8 @@
       li.appendChild(text);
       document.querySelector('ul').appendChild(li);
     });
+    ipcRenderer.on('clear:todos', (event, data) => {
+      document.querySelector('ul').innerHTML = "";
+    });
   </script>
 </body>
