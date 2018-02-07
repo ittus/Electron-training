@@ -2,6 +2,7 @@
 #directories
 bower_components
 node_modules
+ElectronCode
 dist
 
 #files
